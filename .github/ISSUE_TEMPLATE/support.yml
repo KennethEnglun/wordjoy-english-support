@@ -1,0 +1,21 @@
+name: Support / 技術支援
+description: WordJoy English Paradise / 字學貓英語樂園
+title: "[Support] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is public. Please do not include children’s names, photos, worksheets, receipts, passwords or verification codes.
+        此問題頁是公開的，請不要提交小朋友姓名、照片、工作紙、付款憑證或帳戶資料。
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / 遇到甚麼問題？
+      description: Describe what happened and what you expected. / 請描述發生情況及預期結果。
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: App and iOS version / App 及 iOS 版本
+      description: Optional. Include device model if useful. / 可選填裝置型號。
